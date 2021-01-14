@@ -1,0 +1,51 @@
+body {
+  background: #eaddcf;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.wrapper > p {
+  margin: 70px auto;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #0c1b64;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+#seconds,
+#tens {
+  font-size: 3rem;
+  color: #346b06;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #8c7851;
+  color: #fffffe;
+  border: 1px solid #af945e;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background: rgb(192, 185, 185);
+  color: rgb(204, 22, 59);
+  border: 1px solid #fffffe;
+}
