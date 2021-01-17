@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  border: 1px solid rgb(228, 200, 200);
+  background-color: #eee;
+}
+
+header {
+  color: #eee;
+  background: orangered;
+}
+
+header > p {
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+input {
+  margin: 1rem;
+  padding: 10px;
+  width: 300px;
+}
+
+main label {
+  color: rgb(102, 12, 6);
+  font-size: 1.32rem;
+}
+
+button {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 0.876rem;
+  border-radius: 5px;
+  border: none;
+  color: #eee;
+  font-weight: 450;
+  background-color: rgb(66, 145, 66);
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  color: antiquewhite;
+}
+
+#output {
+  margin: 1rem 0;
+}
+
+table,
+th,
+td {
+  margin-left: 0.35rem;
+  padding: 0.34rem;
+  color: rgb(5, 4, 4);
+  background-color: rgb(192, 214, 192);
+  border: 2px solid rgb(90, 79, 90);
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+.numberOfNotes {
+  background-color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  table,
+  th,
+  td {
+    margin-left: 0.23rem;
+    font-size: 0.7rem;
+  }
+
+  .social {
+    display: flex;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .social a {
+    font-size: 1.5rem;
+  }
+}
+
+.footer {
+  line-height: 3.2rem;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  color: rgb(28, 25, 31);
+  font-weight: bold;
+}
+
+.social {
+  font-size: 2rem;
+}
+
+.social a {
+  margin-left: 4rem;
+}
+
+.social:focus {
+  color: rgb(183, 183, 228);
+}
+
+.footer span {
+  color: rgb(17, 7, 9);
+  font-weight: bold;
+}
